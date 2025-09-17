@@ -29,7 +29,7 @@ const FileUpload: React.FC = () => {
   };
 
   return (
-    <div className="bg-slate-700 text-white p-4 shadow-2xl flex justify-center items-center rounded-lg border-white ">
+    <div className=" border-2 border-dashed  text-white p-6  flex justify-center items-center rounded-md border-black shadow-[0_0_50px_-12px_rgba(0,0,0,0.8)] font-sans">
       <div
         onClick={handleFileUploadButtonClick}
         className=" flex justify-center items-center flex-col gap-4"

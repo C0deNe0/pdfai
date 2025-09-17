@@ -43,10 +43,7 @@ export default function RootLayout({
             </SignedOut>
           </section>
 
-          <SignedIn>
-            {/* <UserButton /> */}
-            {children}
-          </SignedIn>
+          <SignedIn>{children}</SignedIn>
         </body>
       </html>
     </ClerkProvider>
